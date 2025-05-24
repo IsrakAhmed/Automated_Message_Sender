@@ -16,9 +16,9 @@
         android:allowBackup="true"
         android:dataExtractionRules="@xml/data_extraction_rules"
         android:fullBackupContent="@xml/backup_rules"
-        android:icon="@mipmap/ic_launcher"
+        android:icon="@mipmap/sentinel_logo"
         android:label="SmsSender"
-        android:roundIcon="@mipmap/ic_launcher_round"
+        android:roundIcon="@mipmap/sentinel_logo"
         android:supportsRtl="true"
         android:theme="@style/Theme.SmsSender"
         tools:targetApi="35">
