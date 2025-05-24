@@ -146,7 +146,7 @@ public class MainActivity extends AppCompatActivity {
 
         //int subscriptionId = subscriptionInfoList.get(selectedPosition).getSubscriptionId();
 
-        int subscriptionId = loadSelectedSim();
+        int subscriptionId = subscriptionInfoList.get(loadSelectedSim()).getSubscriptionId();
 
         String phoneNumber = phoneNumberInput.getText().toString();
         String message = messageInput.getText().toString();
